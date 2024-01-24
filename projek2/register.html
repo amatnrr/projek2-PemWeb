@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Seminar Tugas Akhir - SISTA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="index.html" class="desktop">Sistem Informasi Seminar Tugas Akhir - SISTA</a>
+        <a href="index.html" class="mobile">SISTA</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">Buat Akun</div>
+                <div class="card-body">
+                    <form id="register-form" onsubmit="register()">
+                        <div class="form">
+                            <input class="form-control" id="inputUsername" type="text" placeholder="Username" />
+                            <label for="inputUsername">Username</label>
+                        </div>
+                        <div class="form">
+                                <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" />
+                                <label for="inputPassword">Password</label>
+                        </div>
+                        <div class="form">
+                                <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" />
+                                <label for="inputPasswordConfirm">Konfirmasi Password</label>
+                        </div>
+                        <div class="accBtn">
+                            <input type="submit" class="btn btn-nodecor" value="Sudah punya akun? Masuk" href="login.html">
+                            <input type="submit" class="btn btn-primary" value="Buat Akun">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
